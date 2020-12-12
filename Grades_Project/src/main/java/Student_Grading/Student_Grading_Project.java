@@ -7,7 +7,7 @@ import javax.swing.JMenuItem;
 Full Name: Dimitrios Mpouziotas
 ID: 16188 new(1707)
 Age: 20
-Total Lines of Code: 1350
+Total Lines of Code: 1700 - 1800
 Last updated at: 12/9/2020
 Project Completed at: 12/8/2020
 Description:
