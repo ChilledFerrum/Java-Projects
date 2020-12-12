@@ -1,25 +1,28 @@
 package Student_Grading;
 
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+
 /* 
 Full Name: Dimitrios Mpouziotas
 ID: 16188 new(1707)
 Age: 20
 Total Lines of Code: 1350
-Last updated at: 12/3/2020
-Project Completed at: 11/23/2020
+Last updated at: 12/9/2020
+Project Completed at: 12/8/2020
 Description:
     This program creates a frame Swing that has 4 different menus. Each menu has a variety of drop down functions that
     complete a certain task.
 
-Menu Items:            fileMenu        |  StudentMenu     			| CourseMenu        	|  DatabaseMenu
-=========================================================================================================
-Dropdown functions:    SaveItem        |  New_Student     			|  New_Course        	|  Create_Database
-                       LoadItem        |  Course_Enroll   			|  Show_performance		|  Load_Database
-                       ExitItem  	   |  Show_Performance_Graph	|  Select_Semester		|  Show_All
-                       				   |  Show_Student	  			|  Remove_Course		|  Insert_Student
-                               		   |  Remove_Student  			     					|  Insert_Course
-                                        				  			       					|  Insert_Enroll
-                                                                               				|  Clear_Data
+    private JMenu     fileMenu,     StudentMenu,            CourseMenu,        		 	DatabaseMenu;
+//  =====================================================================================================
+    private JMenuItem NewItem,		New_Student,            New_Course,        		 	Create_Database,
+                      LoadItem,     Course_Enroll,          Show_performance,		 	Load_Database,
+                      SaveItem,	    Show_Student,			Show_Courses_Grades_Graph,	Show_All_Console,
+                      ExitItem,		Show_Performance_Graph, Select_Semester,		 	Insert_Student,
+                      				Remove_Student,			Remove_Course, 			 	Insert_Enroll,
+                      																 	Insert_Course,
+                      																 	Clear_Data;
     
     Each Function is self explanatory by the function's variable's name.
     Extras
